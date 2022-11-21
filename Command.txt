@@ -1,0 +1,31 @@
+# To check all the env present
+- conda env list
+
+# to check the packages of specific env
+- conda activate env_name
+
+# To check all libraries present in the env
+- pip list
+
+
+# create our own environment (for every project)
+- conda create -n project1 python==3.7
+- conda env remove -n ENV_NAME
+
+# switching to a particular environment
+- conda activate project1
+
+# To store the environment variables
+- pip freeze > requirement.txt
+- pip install -r requirement.txt
+
+# Agenda
+save the model
+Flask - GUI - webpages
+deploy horeku aws
+jupyter -> python in vscode - homework
+deploy any ml code 
+
+homework
+    - jupyter project - vscode py file
+    - github for the file
